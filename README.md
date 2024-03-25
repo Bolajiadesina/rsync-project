@@ -102,7 +102,7 @@ fi
 
 > Open vim and edit the script.
 
-![alt text](image-3.png)
+
 
 ![Edited File](images/editsh.png)
 
@@ -169,5 +169,5 @@ crontab -e
 ```
 */2 * * * * /path/to/your/script.sh
 ```
-![alt text](images/cronschedule.png)
+![alt text](images/cronfile.png)
 ![alt text](images/cronschedule.png)
