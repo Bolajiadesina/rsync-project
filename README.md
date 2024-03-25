@@ -106,8 +106,6 @@ fi
 
 > Open vim and edit the script.
 
-
-
 ![Edited File](images/editsh.png)
 
 - Here is a basic example don't forget to modify the parameters.
