@@ -36,6 +36,8 @@ Generate an SSH key pair on the source server
 
 `ssh-keygen -t rsa`
 
+![ssh](images/rsa-key1.png)
+
 You can use ls -la to check the hidden file (.ssh) that is just created.
 
 Our goal is to copy the public key so generated form the Source server to the Destination server, so as to enable us SSH into the Destination server.
@@ -47,6 +49,8 @@ if the above method doesn't work try copying it manually
 cat ~/.ssh/id_rsa.pub
 
 Copy the displayed text
+
+![ssh](images/sshintodestserver.png)
 
 Run the command below in the destination sever
 
@@ -169,5 +173,5 @@ crontab -e
 ```
 */2 * * * * /path/to/your/script.sh
 ```
-![alt text](images/cronfile.png)
-![alt text](images/cronschedule.png)
+![cronfile](images/cronfile.png)
+![cronschedule](images/cronschedule.png)
